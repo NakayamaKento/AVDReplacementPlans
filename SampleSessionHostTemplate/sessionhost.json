@@ -170,6 +170,7 @@
           "vmSize": "[parameters('VMSize')]"
         },
         "securityProfile": {
+          "securityType": "TrustedLaunch",
           "uefiSettings": {
             "secureBootEnabled": true,
             "vTpmEnabled": true
